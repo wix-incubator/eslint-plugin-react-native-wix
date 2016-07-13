@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-react-native-wix",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Custom react-native eslint plugins for internal usage by wix",
   "scripts": {
     "build": ":",
