@@ -4,7 +4,7 @@
   "description": "Custom react-native eslint plugins for internal usage by wix",
   "scripts": {
     "build": ":",
-    "test": "eslint .",
+    "test": "mocha ./tests/rules/*.js",
     "release": "wnpm-release",
     "postpublish": "rm -f npm-shrinkwrap.json"
   },
