@@ -20,6 +20,7 @@
   "homepage": "https://github.com/wix-private/eslint-plugin-react-native-wix#readme",
   "devDependencies": {
     "eslint": "^2.9.0",
+    "mocha": "^3.0.0",
     "wnpm-ci": "*"
   },
   "publishConfig": {
