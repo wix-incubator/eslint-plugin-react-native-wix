@@ -5,19 +5,18 @@
   "scripts": {
     "build": ":",
     "test": "mocha ./tests/rules/*.js",
-    "release": "wnpm-release",
-    "postpublish": "rm -f npm-shrinkwrap.json"
+    "release": "wnpm-release --no-shrinkwrap"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wix-private/eslint-config-wix.git"
+    "url": "git+https://github.com/wix/eslint-config-wix.git"
   },
   "author": "Amit Davidi",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/wix-private/eslint-plugin-react-native-wix/issues"
+    "url": "https://github.com/wix/eslint-plugin-react-native-wix/issues"
   },
-  "homepage": "https://github.com/wix-private/eslint-plugin-react-native-wix#readme",
+  "homepage": "https://github.com/wix/eslint-plugin-react-native-wix#readme",
   "devDependencies": {
     "eslint": "^2.9.0",
     "mocha": "^3.0.0",
